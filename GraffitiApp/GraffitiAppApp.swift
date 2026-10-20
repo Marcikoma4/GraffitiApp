@@ -11,7 +11,8 @@ import SwiftUI
 struct GraffitiAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignIn()
         }
+        .environment(AppData())
     }
 }
